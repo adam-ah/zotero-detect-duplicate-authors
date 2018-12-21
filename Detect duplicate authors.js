@@ -66,13 +66,15 @@ function doExport() {
         }
 
         item.creators.forEach(creator => {
-            items.push({
-                author: {
-                    firstName: creator.firstName.toLowerCase(),
-                    lastName: creator.lastName.toLowerCase()
-                },
-                title: item.title
-            });
+            if(creator.firstName && creator.lastName) {
+                items.push({
+                    author: {
+                        firstName: creator.firstName.toLowerCase(),
+                        lastName: creator.lastName.toLowerCase()
+                    },
+                    title: item.title
+                });
+            }
         });
     }
 
