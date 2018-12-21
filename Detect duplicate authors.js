@@ -61,6 +61,10 @@ function doExport() {
     let items = [];
     let item = null;
     while (item = Zotero.nextItem()) {
+        if(!item.creators){
+            continue;
+        }
+
         item.creators.forEach(creator => {
             items.push({
                 author: {
@@ -84,7 +88,7 @@ function doExport() {
             }
 
             let distance = levenshtein(author.lastName, otherAuthor.lastName);
-            if (distance <= 1 && !reported.has(items[j])) {
+            if (distance <= 1 && !reported.has(items[j]) && author.firstName != otherAuthor.firstName) {
                 duplicates.push(items[j]);
                 reported.add(items[j]);
             }
