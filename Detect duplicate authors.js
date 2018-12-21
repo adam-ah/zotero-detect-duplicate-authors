@@ -82,13 +82,20 @@ function doExport() {
         let author = items[i].author;
 
         for (let j = i + 1; j < items.length; j++) {
+            if(reported.has(items[j])){
+                continue;
+            }
+            
             let otherAuthor = items[j].author;
-            if (author.firstName.substr(0, 1) != otherAuthor.firstName.substr(0, 1)) {
+
+            if (author.firstName[0] != otherAuthor.firstName[0]) {
                 continue;
             }
 
             let distance = levenshtein(author.lastName, otherAuthor.lastName);
-            if (distance <= 1 && !reported.has(items[j]) && author.firstName != otherAuthor.firstName) {
+            let firstNameMatch = author.firstName == otherAuthor.firstName;
+
+            if ((distance == 0 && !firstNameMatch) || distance == 1) {
                 duplicates.push(items[j]);
                 reported.add(items[j]);
             }
