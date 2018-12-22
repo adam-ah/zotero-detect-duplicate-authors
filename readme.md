@@ -19,28 +19,28 @@ Running on a real Zotero database the following, mostly real, different ways of 
 
 
 ```
-bayer, joseph: Passive Facebook usage undermines affective well-being: Experimental and longitudinal evidence.
-bayer, jordana k.: Parent influences on early childhood internalizing difficulties
+Bayer, Joseph: Passive Facebook usage undermines affective well-being: Experimental and longitudinal evidence.
+Bayer, Jordana K.: Parent influences on early childhood internalizing difficulties
 
-d'esposito, fabrizio: Postpartum maternal separation anxiety, overprotective parenting, and children’s social-emotional well-being: Longitudinal evidence from an Australian cohort.
-d’esposito, fabrizio: Stressful life events and the onset of chronic diseases among Australian adults: findings from a longitudinal survey
+D'Esposito, Fabrizio: Postpartum maternal separation anxiety, overprotective parenting, and children’s social-emotional well-being: Longitudinal evidence from an Australian cohort.
+D’Esposito, Fabrizio: Stressful life events and the onset of chronic diseases among Australian adults: findings from a longitudinal survey
 
-smith, andrew p: Stress models: A review and suggested new direction
-smith, andrew p.: Negative life events, perceived stress, negative affect, and susceptibility to the common cold
+Smith, Andrew P: Stress models: A review and suggested new direction
+Smith, Andrew P.: Negative life events, perceived stress, negative affect, and susceptibility to the common cold
 
-chen, jew-wu: Testing a model of stress and health using meta-analytic path analysis
-chen, jue: Frequency of Borderline Personality Disorder Among Psychiatric Outpatients in Shanghai
+Chen, Jew-Wu: Testing a model of stress and health using meta-analytic path analysis
+Chen, Jue: Frequency of Borderline Personality Disorder Among Psychiatric Outpatients in Shanghai
 
-garber, judy: The relation between parenting and adolescent depression: self-worth as a mediator
-barber, jacques p.: Clinical severity as a moderator of outcome in psychodynamic and dialectical behavior therapies for borderline personality disorder.
+Garber, Judy: The relation between parenting and adolescent depression: self-worth as a mediator
+Barber, Jacques P.: Clinical severity as a moderator of outcome in psychodynamic and dialectical behavior therapies for borderline personality disorder.
 
-bowlby, john: Attachment and loss
-bowlby, j.: Attachment and loss. 1. Attachment
+Bowlby, John: Attachment and loss
+Bowlby, J.: Attachment and loss. 1. Attachment
 
-horton, mike c.: Assessing the predictability of self-harm in a high-risk adult prisoner population: a prospective cohort study
-horton, mike: Assessing the risk of self-harm in an adult offender population: an incidence cohort study
-horton, michael colin: Screening for the risk of self-harm in an adult offender population
+Horton, Mike C.: Assessing the predictability of self-harm in a high-risk adult prisoner population: a prospective cohort study
+Horton, Mike: Assessing the risk of self-harm in an adult offender population: an incidence cohort study
+Horton, Michael Colin: Screening for the risk of self-harm in an adult offender population
 
-wright, nat m. j.: Assessing the predictability of self-harm in a high-risk adult prisoner population: a prospective cohort study
-wright, nat: Assessing the risk of self-harm in an adult offender population: an incidence cohort study
+Wright, Nat M. J.: Assessing the predictability of self-harm in a high-risk adult prisoner population: a prospective cohort study
+Wright, Nat: Assessing the risk of self-harm in an adult offender population: an incidence cohort study
 ```
