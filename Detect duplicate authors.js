@@ -9,9 +9,6 @@
   "configOptions": {
     "getCollections": false
   },
-  "displayOptions": {
-    "exportFileData": false
-  },
   "translatorType": 2,
   "browserSupport": "gcsv",
   "priority": 100,
@@ -69,8 +66,8 @@ function doExport() {
             if(creator.firstName && creator.lastName) {
                 items.push({
                     author: {
-                        firstName: creator.firstName.toLowerCase(),
-                        lastName: creator.lastName.toLowerCase()
+                        firstName: creator.firstName,
+                        lastName: creator.lastName
                     },
                     title: item.title
                 });
@@ -90,7 +87,7 @@ function doExport() {
             
             let otherAuthor = items[j].author;
 
-            if (author.firstName[0] != otherAuthor.firstName[0]) {
+            if (author.firstName.trim()[0].toLowerCase() != otherAuthor.firstName.trim()[0].toLowerCase()) {
                 continue;
             }
 
